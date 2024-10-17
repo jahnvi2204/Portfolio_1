@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import "../../index.css";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -18,7 +16,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a Passionate Tech Enthusiast, 
+              I am a Dedicated Tech Enthusiast, 
               <br />
               <br />I am fluent in classics like
               <i>
@@ -46,7 +44,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> React.js ,&nbsp; Express.js</b>
               </i>
             </p>
           </Col>
