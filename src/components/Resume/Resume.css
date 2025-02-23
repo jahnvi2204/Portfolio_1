@@ -1,0 +1,66 @@
+.pdf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 64rem; /* 4xl in Tailwind */
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .main-card {
+    width: 100%;
+    background-color: rgb(56, 48, 106);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .download-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #2563eb; /* blue-600 */
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .download-button:hover {
+    background-color: #18264d; /* blue-700 */
+  }
+  
+  .pdf-preview {
+    width: 100%;
+    aspect-ratio: 8.5/11;
+    background-color: #f3f4f6; /* gray-100 */
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pdf-object {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .fallback-text {
+    color: #6b7280; /* gray-500 */
+  }
+  
+  /* For spacing between elements */
+  .pdf-container > * + * {
+    margin-top: 1.5rem;
+  }

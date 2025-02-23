@@ -1,7 +1,8 @@
-import React from "react";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import { BsGithub } from "react-icons/bs";
+import React from 'react';
+import { Card, Button } from 'react-bootstrap';
+import { BsGithub } from 'react-icons/bs';
+import { CgWebsite } from "react-icons/cg"; // For demo link icon
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ProjectCards(props) {
   return (
@@ -19,8 +20,7 @@ function ProjectCards(props) {
         {"\n"}
         {"\n"}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
+        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component */}
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
@@ -28,6 +28,7 @@ function ProjectCards(props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
+            <CgWebsite /> &nbsp;
             {"Demo"}
           </Button>
         )}
@@ -35,4 +36,5 @@ function ProjectCards(props) {
     </Card>
   );
 }
+
 export default ProjectCards;
