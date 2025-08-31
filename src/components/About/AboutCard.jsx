@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Jahnvi Saxena </span>
             from <span className="purple"> Visakhapatnam, India.</span>
             <br />
-            A passionate tech enthusiast and a pre-final year Computer Science student at VIT Bhopal.
+            A passionate tech enthusiast and a final year Computer Science student at VIT Bhopal.
             <br />
             I’m diving deep into the MERN stack to build innovative web applications.
           </p>
